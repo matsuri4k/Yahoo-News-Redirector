@@ -1,0 +1,9 @@
+{
+  "manifest_version": 3,
+  "name": "Yahoo News to Google News Redirector",
+  "version": "0.1",
+  "background": {
+      "service_worker": "background.js"
+  },
+  "permissions": ["tabs", "webNavigation"]
+}
